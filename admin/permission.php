@@ -1,11 +1,12 @@
 <?php
 	include("inc/settings.php");
+	
 	if (!intval($admin_code)) {die("Ошибка: администратор не задан");}
 	$oper=$_POST['oper'];
 
 	if(!isAllowed("radmin")) {die("У Вас недостаточно прав для просмотра этой страницы");}
 
-    list($admin_name,$admin_login)=mysql_fetch_array(mysql_query("select admin_name,admin_login from {$PREFFIX}_admin where admin_code=$admin_code")  );
+    list($admin_name,$admin_login)=mysql_fetch_array(mysql_query("select admin_name,admin_login from {$PREFFIX}_admin where admin_code=$admin_code"));
 
     if (!empty($oper))
     {
@@ -16,9 +17,9 @@
         $query="update {$PREFFIX}_admin set
         admin_rstatic    = ".intval($admin_rstatic).",
         admin_ralbum     = ".intval($admin_ralbum).",       
-        admin_radmin     = ".intval($admin_radmin).",
+        admin_radmin     = ".intval($admin_radmin)."
         where admin_code = ".intval($admin_code);
-        mysql_query($query) or $err=1;
+        mysql_query($query) or $err=1; //die("ошибка редактирования:<br>$query<br>".mysql_error());
         header("Location: $PHP_SELF?admin_code=$admin_code&err=$err");
     }
 
