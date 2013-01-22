@@ -186,7 +186,7 @@ if (!empty($oper))
 <div id=addform>
 <table Border=0 CellSpacing=0 class=pagebluetable CellPadding=0>
  <tr><td colspan=3 bgcolor=#ffffff height=10></td></tr>
- <tr><td colspan=10 class=blueheadcolor><center><div class=normaltext>днаюбхрэ ярпюмхжс</div></center></td></tr>
+ <tr><td colspan=10 class=blueheadcolor><center><div class=normaltext>днаюбкемхе ярпюмхжш</div></center></td></tr>
  <tr><td colspan=3 height=1 bgcolor=#ffffff></td></tr>
  <tr><td>
  <center>

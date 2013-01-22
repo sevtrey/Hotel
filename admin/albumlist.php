@@ -180,14 +180,14 @@ if (!empty($oper))
 <table class=grayhead Border=0 CellSpacing=0 CellPadding=0 >
  <tr class=normaltext>
   <td ><div ><h4><?=$part_name;?></h4></div></td>
-  <td align=right class=wmiddletext><a class=submenu onclick="displayform(this,'добавить страницу')">добавить страницу</a></td>  
+  <td align=right class=wmiddletext><a class=submenu onclick="displayform(this,'добавить галерею')">добавить галерею</a></td>  
  </tr>
 </table>
 
 <div id=addform>
 <table Border=0 CellSpacing=0 class=pagebluetable CellPadding=0>
  <tr><td colspan=3 bgcolor=#ffffff height=10></td></tr>
- <tr><td colspan=10 class=blueheadcolor><center><div class=normaltext>ДОБАВИТЬ СТРАНИЦУ</div></center></td></tr>
+ <tr><td colspan=10 class=blueheadcolor><center><div class=normaltext>ДОБАВЛЕНИЕ ГАЛЕРЕИ</div></center></td></tr>
  <tr><td colspan=3 height=1 bgcolor=#ffffff></td></tr>
  <tr><td>
  <center>
@@ -207,7 +207,7 @@ if (!empty($oper))
         <td class=helptd>
 
              <div class=ssmalltext>
-                Введите название страницы и нажмите кнопку "добавить страницу". </a>
+                Введите название страницы и нажмите кнопку "добавить галерею". </a>
              </div>
 
         </td>
@@ -219,7 +219,7 @@ if (!empty($oper))
 
  </tr>
  <tr><td colspan=3 height=1 bgcolor=#ffffff></td></tr>
- <tr> <td colspan=10 id=blueheadcolor><center><input type=button onClick=Send('I') value='добавить страницу'  class=smalltext> </td></tr>
+ <tr> <td colspan=10 id=blueheadcolor><center><input type=button onClick=Send('I') value='добавить галерею'  class=smalltext> </td></tr>
 </table>
 </div>
 

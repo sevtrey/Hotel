@@ -61,7 +61,7 @@ $newunitcode=$newunitcode+1;
 }
  $res=mysql_query("update {$PREFFIX}_picture set picpos=picpos+1 where picpos>=$picpos and static_code=$static_code");
  $query="insert into {$PREFFIX}_picture values($newunitcode,$static_code,'$small','$big',$picpos,'$piccomment')";
- echo"$query";
+ //echo"$query";
  $result=mysql_query($query) or die("Cannot Insert Picture") ;
 //для постраничного-------------------------------------------------------------
  $query="select picture_code from {$PREFFIX}_picture where static_code=$static_code order by $sortby $realsortdir";
@@ -261,7 +261,7 @@ if ($static_code==0)
 <div id=addform>
 <table Border=0 CellSpacing=0 class=pagebluetable CellPadding=0>
  <tr><td colspan=3  bgcolor=#ffffff height=10></td></tr>
- <tr><td colspan=10 class=blueheadcolor><center><div class=normaltext>ДОБАВИТЬ ИЗОБРАЖЕНИЕ</div></center></td></tr>
+ <tr><td colspan=10 class=blueheadcolor><center><div class=normaltext>ДОБАВЛЕНИЕ ИЗОБРАЖЕНИЯ</div></center></td></tr>
  <tr><td colspan=3  height=1 bgcolor=#ffffff></td></tr>
  <tr><td>
  <center>
@@ -271,7 +271,7 @@ if ($static_code==0)
     <td width=5></td>
     <td><input name='picbig' type=file style="width:150px" class=smalltext></td>
     <td width=5></td>
-    <td class=lmenutext>Размер&nbsp;иконки:</td>
+    <td class=lmenutext>Размер&nbsp;превью:</td>
     <td width=5></td>
     <td><input name=icon value='<?=$icon;?>' type=text style="width:50px" class=smalltext></td>
  </tr>
@@ -305,7 +305,7 @@ if ($static_code==0)
         <td class=helptd>
 
              <div class=ssmalltext>
-                Выберите изображение, используя кнопку "Обзор". Заполните необходимые поля формы и нажмите кнопку "добавить изображение". Для изменения последовательности изображений в галерее, измените поле "Позиция".
+                Выберите изображение, используя кнопку "Обзор". Заполните необходимые поля формы и нажмите кнопку "добавить изображение". Для изменения последовательности изображений в галерее, измените поле "Позиция". Если вам не важна позиция изображения, не редактируйте это поле.
              </div>
 
         </td>
