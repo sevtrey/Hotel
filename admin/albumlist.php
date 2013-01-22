@@ -4,7 +4,7 @@ $per_page=30;
 $oper=$_POST['oper'];
 pagetype=="gallery";
 
-if(!isAllowed("rstatic")) {die("У Вас недостаточно прав для просмотра этой страницы");}
+if(!isAllowed("ralbum")) {die("У Вас недостаточно прав для просмотра этой страницы");}
 
 if (!isset($curr_page)) $curr_page=0;
 $_SESSION["pageback"]="textpage.php?curr_page=$curr_page";

@@ -7,7 +7,7 @@
 
 <?php
 
-if( (isAllowed("radmin")) || (isAllowed("rbanner")) )
+if( (isAllowed("radmin")) || (isAllowed("rstatic")) || (isAllowed("ralbum")) )
 {
 echo"<p><div class=lmenupart><b>Администрирование</b></div>";
     if (isAllowed("radmin")) echo"<div class=lmenupart>&#187;&nbsp; <b><a href=\"admin.php\">Управление доступом</a></b></div>";

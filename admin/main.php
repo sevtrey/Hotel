@@ -1,7 +1,7 @@
 <?php
 include("inc/settings.php");
 include ("inc/head.php");
-if(!isAllowed("radmin")) {die("У Вас недостаточно прав для просмотра этой страницы");}
+//if(!isAllowed("radmin")) {die("У Вас недостаточно прав для просмотра этой страницы");}
 ?>
 
 <BODY>
@@ -33,7 +33,7 @@ if(!isAllowed("radmin")) {die("У Вас недостаточно прав для просмотра этой страни
      <td width=48%>
      
 <?
-if( (isAllowed("radmin")) )
+if( (isAllowed("radmin")) || (isAllowed("rstatic")) )
 {
 echo"
 <table class=grayhead Border=0 CellSpacing=0 CellPadding=0>
@@ -43,7 +43,7 @@ echo"
  <tr class=middletext align=center valign=top>";
 if (isAllowed("radmin")) echo"
     <td><a href=\"admin.php\"><img src=\"graph/icon/admins.gif\"  border=0><p class=\"space\">управление<br>доступом</a></td>";
-if (isAllowed("radmin")) echo"
+if (isAllowed("rstatic")) echo"
     <td>&nbsp;</td>
     <td><a href=\"statlist.php\"><img src=\"graph/icon/ticket.gif\" border=0><p class=\"space\">текстовые<br>страницы</a></td>";
 echo"
