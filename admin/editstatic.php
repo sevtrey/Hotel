@@ -195,7 +195,8 @@ function alertContents(httpRequest) {
   if ($err==5) print'<tr><td class=smalltext align=center style="color:red;"> Ошибка загрузки файла документации</td></tr>';
 ?>
       <!-- <tr><td class=lmenutext align=center><a href="<?//=$_SESSION["pageback"]?>">[ назад ]</a><br> -->
-	  <tr><td class=lmenutext align=center><a href="statlist.php">[ назад ]</a><br>
+	  <!--<tr><td class=lmenutext align=center><a href="statlist.php">[ назад ]</a><br>-->
+	  <td class=lmenutext align=center><a href="javascript:history.back();">[ назад ]</a><br>
 </table>
 
 
@@ -265,7 +266,8 @@ function alertContents(httpRequest) {
 <table Border=0 CellSpacing=0 CellPadding=0 width=650>
 <!-- <tr><td height=10></td></tr>-->
      <!--<tr><td class=lmenutext align=center><a href="<?//=$_SESSION["pageback"]?>">[ назад ]</a><br><br>-->
-	 <tr><td class=lmenutext align=center><a href="statlist.php">[ назад ]</a>
+	<!-- <tr><td class=lmenutext align=center><a href="statlist.php">[ назад ]</a> -->
+	<td class=lmenutext align=center><a href="javascript:history.back();">[ назад ]</a><br>
 </table>
 
 </center>

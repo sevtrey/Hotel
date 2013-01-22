@@ -2,7 +2,7 @@
 include("inc/settings.php");
 $per_page=30;
 $oper=$_POST['oper'];
-pagetype=="gallery";
+//pagetype=="gallery";
 
 if(!isAllowed("ralbum")) {die("У Вас недостаточно прав для просмотра этой страницы");}
 
@@ -301,7 +301,7 @@ if (!empty($oper))
 			echo"<tr class=edittabletext height=24 bgcolor=$bg>";
 			echo"<TD width=20 align=center ><input type='checkbox' name=\"C#$checkname\" id=\"C#$checkname\"></TD>";
 			echo"<TD align=left class=smalltext ondblclick='change_line(\"$checkname\",\"F#$checkname#static_title#string\");' id=\"F#$checkname#static_title#string\">".Show($static_title)."</TD>\n";
-			echo"<td align=center ><a href='editseo.php?static_code=$static_code&page_name=$page_name'><img height='20' width='20' src='graph/edit.gif' border=0 title='Редактировать SEO информацию'></a></td>";
+			echo"<td align=center ><a href='editseo.php?static_code=$static_code&page_name=$page_name&pagetype=$pagetype'><img height='20' width='20' src='graph/edit.gif' border=0 title='Редактировать SEO информацию'></a></td>";
 			//echo"<td align=center ><a href='editstatic.php?static_code=$static_code&static_title=$static_title'><img height='20' width='20' src='graph/edit.gif' border=0 title='Редактировать содержимое страницы'></a></td>";
 			
 			echo"<td><center><a href=\"picture.php?back=statlist&icon=250&static_code=$static_code\"><img height='24' width='24' src='graph/photo.gif' border=0 alt='Фотогалерея ' title='Редактировать фотогалерею'></a></td>";

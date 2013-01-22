@@ -90,6 +90,7 @@ if (!empty($oper))
 	}
 	   if($sortby) $tmp="&sortby=$sortby&sortdir=$sortdir"; else $tmp="";
 	   header("Location: $PHP_SELF?err=$err$tmp");
+	   //header("Location: $PHP_SELF?err=$err$tmp&pagetype=$pagetype");
 }
 ?>
 
@@ -301,7 +302,7 @@ if (!empty($oper))
 			echo"<TD align=left class=smalltext ondblclick='change_line(\"$checkname\",\"F#$checkname#static_title#string\");' id=\"F#$checkname#static_title#string\">".Show($static_title)."</TD>\n";
 			echo"<td align=center ><a href='editstatic.php?static_code=$static_code&static_title=$static_title'><img height='20' width='20' src='graph/edit.gif' border=0 title='Редактировать содержимое страницы'></a></td>";
 			//echo"<td align=center ><a href='editstatic.php?static_code=$static_code&static_title=$static_title'><img height='20' width='20' src='graph/edit.gif' border=0 title='Редактировать содержимое страницы'></a></td>";
-			echo"<td align=center ><a href='editseo.php?static_code=$static_code&page_name=$page_name'><img height='20' width='20' src='graph/edit.gif' border=0 title='Редактировать SEO информацию'></a></td>";
+			echo"<td align=center ><a href='editseo.php?static_code=$static_code&page_name=$page_name&pagetype=$pagetype'><img height='20' width='20' src='graph/edit.gif' border=0 title='Редактировать SEO информацию'></a></td>";
 			echo"<td><center><a href=\"picture.php?back=statlist&icon=250&static_code=$static_code\"><img height='24' width='24' src='graph/photo.gif' border=0 alt='Фотогалерея ' title='Редактировать фотогалерею'></a></td>";
 			echo"</TR>\n";
 		} 

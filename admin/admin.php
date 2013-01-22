@@ -162,7 +162,7 @@ function ConfirmSend(a)
 
 <table Border=0 CellSpacing=0 CellPadding=0 width=100%>
   <tr><td class=pageline>
-     <div class=wmiddletext><a href="main.php">Администрирование сайта</a> &#187; <a href="admin.php">Управление доступом</a></div>
+     <div class=wmiddletext><a href="main.php">Администрирование сайта</a> &#187; Управление доступом</div>
   </td></tr>
 </table>
 &nbsp;
