@@ -83,7 +83,7 @@ if (!empty($oper))
 				if ($varName=="F")
 				{
 					if ($varType=="string") $tmp="'"; else $tmp="";
-					$sqlupd = "update {$PREFFIX}_page set $varField=$tmp".$value."$tmp  where static_code=$varCode";
+					$sqlupd = "update {$PREFFIX}_static set $varField=$tmp".$value."$tmp  where static_code=$varCode";
 					$resultupd = MYSQL_QUERY($sqlupd) or $err-=10;
 				}
 			}
@@ -235,15 +235,14 @@ if (!empty($oper))
 ?>
 
 
-<table Border=0 CellSpacing=0 class=pagebluetable CellPadding=0>
- <tr><td>
+<!--<table Border=0 CellSpacing=0 class=pagebluetable CellPadding=0>
+ <tr height=30><td>
  <center>
  <table>
  <td><input type=button onClick=Send('U') value='изменить отмеченные' class=smalltext></td> 
    <td width=5></td>
    <td><input type=button onClick=ConfirmSend('D') value='удалить отмеченные'  class=smalltext></td>
-  <br>
- <tr align="center" height=30 >
+ <!--<tr align="center" height=30 >
   <!-- <td> <select align="center" name="pagetype" onchange="submit()">
            <option value="page" <?php //if ($pagetype=="page") echo "selected"; ?>> статические страницы </option>
            <option value="gallery" <?php //if ($pagetype=="gallery") echo "selected"; ?>> галереи </option>
@@ -252,9 +251,22 @@ if (!empty($oper))
    
    <!--<td><input type=button onClick=Send('U') value='изменить отмеченные' class=smalltext></td> 
    <td width=5></td>
-   <td><input type=button onClick=ConfirmSend('D') value='удалить отмеченные'  class=smalltext></td>-->
+   <td><input type=button onClick=ConfirmSend('D') value='удалить отмеченные'  class=smalltext></td>
  </tr>
 
+ </table>
+ </td></tr>
+</table>-->
+
+<table Border=0 CellSpacing=0 class=pagebluetable CellPadding=0>
+ <tr><td>
+ <center>
+ <table>
+ <tr height=30 >
+    <td><input type=button onClick=Send('U') value='изменить отмеченные' class=smalltext></td>
+    <td width=5></td>
+    <td><input type=button onClick=ConfirmSend('D') value='удалить отмеченные'  class=smalltext></td>
+ </tr>
  </table>
  </td></tr>
 </table>

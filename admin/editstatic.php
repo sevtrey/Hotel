@@ -131,7 +131,7 @@ function alertContents(httpRequest) {
 
 <table Border=0 CellSpacing=0 CellPadding=0 width=100%>
   <tr><td  class=pageline>
-     <div class=wmiddletext><a href="main.php">Администрирование сайта</a> <a href="<?=$_SESSION['pageback']?>"> <?echo"$page_name";?></a></div>
+    <div class=wmiddletext><a href="main.php">Администрирование сайта</a> &#187; <a href="statlist.php">Текстовые страницы</a> &#187; Редактирование содержимого страницы</a></div>
   </td>
    <td width=200 class=pageline> <div class=wmiddletext>
         <?/////////////////////// include("inc/selectlang.php");?>  
@@ -263,7 +263,7 @@ function alertContents(httpRequest) {
  </form>
 
 <table Border=0 CellSpacing=0 CellPadding=0 width=650>
- <tr><td height=10></td></tr>
+<!-- <tr><td height=10></td></tr>-->
      <!--<tr><td class=lmenutext align=center><a href="<?//=$_SESSION["pageback"]?>">[ назад ]</a><br><br>-->
 	 <tr><td class=lmenutext align=center><a href="statlist.php">[ назад ]</a>
 </table>

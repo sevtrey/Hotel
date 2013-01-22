@@ -140,12 +140,12 @@ echo"</pre>";
            mysql_query("update {$PREFFIX}_picture set picpos=$newpos where picture_code=$varCode");
            RenumeratePos("{$PREFFIX}_picture","picture_code","picpos","static_code",$static_code);
          }
-      }//if ($varName=="F")
-  }//while
-}//if  (UPD)
+      }
+  }
+}
    if($sortby) $tmp="&sortby=$sortby&sortdir=$sortdir";else $tmp="";
    header("Location: $PHP_SELF?back=$back&curr_page=$curr_page&curr_p=$curr_p&artist_code=$artist_code&static_code=$static_code&icon=$icon$tmp&watermark=$watermark");
-}//empty
+}
 ?>
 
 
