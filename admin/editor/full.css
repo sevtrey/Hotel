@@ -1,0 +1,28 @@
+body {
+        background-color: #ffffff;
+        margin:5px;
+		color:#000000;font-family:Arial; font-size:13px; font-weight:normal;
+    	scrollbar-3dlight-color: #F0F0EE;
+        scrollbar-arrow-color: #676662;
+        scrollbar-base-color: #F0F0EE;
+        scrollbar-darkshadow-color: #DDDDDD;
+        scrollbar-face-color: #E0E0DD;
+        scrollbar-highlight-color: #F0F0EE;
+        scrollbar-shadow-color: #F0F0EE;
+        scrollbar-track-color: #F5F5F5;
+
+}
+
+pre {font-family:Verdana; font-size:13px; color:#381526;}
+
+p {margin:0px; margin-bottom:10px; padding:0px;}
+ul {margin:0px; margin-left:25px; padding:0px;}
+
+.Just_Text{text-align:justify;}
+.Small_Text{color:#000000;font-family:Verdana,Arial; font-size:10px; font-weight:normal;}
+.Green_text {text-decoration:none; color:#006666; font-family: Arial, Tahoma, Verdana, Helvetica; font-size:12px;}
+.BigRed_Text{text-decoration:none; color:#8D1B3D; font-family: Arial, Tahoma, Verdana, Helvetica; font-size:21px;}
+.SmallRed_Text{text-decoration:none; color:#8D1B3D; font-family: Arial, Tahoma, Verdana, Helvetica; font-size:10px;}
+.BigBlue_Text{text-decoration:none; color:#07325e; font-family: Arial, Tahoma, Verdana, Helvetica; font-size:21px;}
+.SmallBlue_Text{text-decoration:none; color:#07325e; font-family: Arial, Tahoma, Verdana, Helvetica; font-size:10px;}
+

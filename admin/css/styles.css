@@ -1,0 +1,106 @@
+body {padding:0px; margin:0px; background-color:#f9f9f9;}
+
+a {text-decoration : none; color: #3059D6;}
+a:hover {color: #0000CC;}
+img {border-color: #000000;}
+
+.mainbody {width:960px; background-color:#ffffff;}
+.pageline {height:32px; background-color:#333333; padding-left:15px;}
+.grayhead {width:100%; height:25px; padding-left:10px; padding-right:10px; background-color:#666666;}
+.pagebluetable {width:100%; background-color:#f6f6f6;}
+.bluetable {background-color:#f6f6f6;}
+.leftpanel {width:225px; font-size:8px;}
+
+.helpzone {width:250px; padding:10px;}
+.helptable {background-color:#dddddd;}
+.helptd {background-color:#fcfcfc; padding:5px;}
+
+
+.loginmenu {text-align: right; line-height: 11pt; padding-right:10px; font-size : 10px; font-family : Verdana, Tahoma, Arial, Helvetica, Sans-serif, Pragmatica;}
+.loginform {padding-left:10px; }
+
+.vgrayline {width: 1px; background: #949494; }
+
+.topleft {width:367px}
+.topcenter {text-align:center; padding-bottom:10px;}
+.topright {width:290px; text-align:right; padding-bottom:10px;}
+.topmenu {height:34px; text-align:left; vertical-align: center; background-color:#E7E7E7; padding-left:10px;}
+.topmenutext {text-decoration : none; font-family : Arial, Verdana, Tahoma, Helvetica, Sans-serif, Pragmatica; font-size:12px;}
+
+.lmenu {text-decoration:none; padding-left:10px; font-weight:bold; color:#ffffff; font-size:12px; font-family: Arial,Helvetica,Sans-serif,Verdana,Tahoma,Pragmatica;}
+
+.lmenupart {text-decoration:none; letter-spacing: -1px; line-height:10pt;  margin-bottom:5px; font-size:11px; font-family: Verdana,Arial,Helvetica,Sans-serif,Tahoma,Pragmatica;}
+
+.lmenutext {text-decoration:none; letter-spacing: -1px; line-height:10pt; margin-left:10px; margin-right:10px;  margin-top:3px; margin-bottom:3px; font-size:11px; font-family: Verdana,Arial,Helvetica,Sans-serif,Tahoma,Pragmatica;}
+
+.edittabletext {color:#666666; text-decoration:none; letter-spacing: -1px; line-height:12pt; font-size:11px; font-family: Verdana,Arial,Helvetica,Sans-serif,Tahoma,Pragmatica;}
+.cmenutext {text-decoration:none; letter-spacing: -1px; line-height:11pt; font-size:11px; font-family: Verdana,Arial,Helvetica,Sans-serif,Tahoma,Pragmatica;}
+.newstext {text-decoration:none; letter-spacing: -1px;  font-size:11px; font-family: Verdana,Arial,Helvetica,Sans-serif,Tahoma,Pragmatica;}
+.parttext {text-decoration:none; padding:10px; text-align:justify; font-size:11px; font-family: Verdana,Arial,Helvetica,Sans-serif,Tahoma,Pragmatica;}
+
+.bluehead {width:220px; height:27px; padding-left:10px; background-color:#666666;}
+.blueblock {width:220px; padding:10px; background-color:#f0f0f0; border-bottom: 1px solid #DCDCDD;}
+.blueheadcolor {height:27px; background-color:#e6e6e6;}
+
+.bodycenter {width:10px;}
+.parthead {width:411px; height:26px;  padding-left:10px; font-weight:bold; color:#000000; font-size:12px; font-family: Arial,Helvetica,Sans-serif,Verdana,Tahoma,Pragmatica; background: url(../../graph/part_bg.gif); background-color:#E6E6E6;}
+.end {width:835px; height:49px;  background: url(../../graph/end_bg.gif); background-color:#E6E6E6;}
+
+.formaintable {width:411px;}
+#addform {display:none;}
+
+.gline  {height: 2px; background: #e3e3e3; padding-top:10px; margin-bottom:15px;}
+
+H1 {text-decoration:none; font-weight:normal; padding:0; margin:0; font-family: Arial, Verdana; font-size : 24px;}
+H2 {text-decoration : none; padding:0; margin:0; display: inline; }
+H3 {text-decoration : none; padding:0; margin:0;}
+H4 {text-decoration:none; font-weight:normal; color:#ffffff; padding:0; margin:0; font-family: Verdana; font-size : 15px;}
+
+.submenu {cursor:hand;cursor:pointer;}
+.submenu0 {padding-left: 15px; width:170px; padding-bottom:8px; padding-bottom:3px;  line-height:10pt; display:none}
+.submenu1 {padding-left: 15px; width:160px; padding-bottom:8px; padding-bottom:3px;  line-height:10pt; display:none}
+.submenu2 {padding-left: 15px; width:160px; padding-bottom:8px; padding-bottom:3px;  line-height:10pt; display:none}
+.submenu3 {padding-left: 15px; width:160px; padding-bottom:8px; padding-bottom:3px;  line-height:10pt; display:none}
+.submenu4 {padding-left: 15px; width:160px; padding-bottom:8px; padding-bottom:3px;  line-height:10pt; display:none}
+.submenu5 {padding-left: 15px; width:160px; padding-bottom:8px; padding-bottom:3px;  line-height:10pt; display:none}
+.submenu6 {padding-left: 15px; width:160px; padding-bottom:8px; padding-bottom:3px;  line-height:10pt; display:none}
+.submenulink {margin-top:5px; }
+
+p {text-decoration:none; padding:0; margin-top:10px; margin-bottom:0px;}
+ul {text-decoration:none; padding:0; margin-top:5px; margin-bottom:0px; margin-right:0px; margin-left:16px;}
+li {text-decoration:none; padding:0; margin-top:0px; margin-bottom:3px; margin-right:0px; margin-left:0px;}
+
+.justtext  {
+    text-decoration : none;
+    color : #000000;
+    font-family : Verdana, Tahoma, Arial, Helvetica, Sans-serif, Pragmatica;
+    font-size : 11px;
+    text-align: justify;
+}
+
+.bigtext {text-decoration:none; color:#000000; font-family:Verdana, Tahoma, Arial, Helvetica, Sans-serif, Pragmatica; font-size:16px;}
+.normaltext {text-decoration:none; color:#000066; font-family:Verdana, Tahoma, Arial, Helvetica, Sans-serif, Pragmatica; font-size:12px;}
+.middletext {text-decoration:none; color:#000000; font-family:Verdana, Tahoma, Arial, Helvetica, Sans-serif, Pragmatica; font-size:11px;}
+.smalltext  {text-decoration:none; color:#000000; font-family:Verdana, Tahoma, Arial, Helvetica, Sans-serif, Pragmatica; font-size:10px;}
+.ssmalltext  {text-decoration:none; color:#666666; font-family: Tahoma, Arial, Helvetica, Sans-serif, Pragmatica; font-size:10px;}
+.loginformtext {text-decoration:none; color:#000000; font-family:Verdana, Tahoma, Arial, Helvetica, Sans-serif, Pragmatica; font-size:23px;}
+
+.wmiddletext {text-decoration:none; color:#ffffff; font-family:Verdana, Tahoma, Arial, Helvetica, Sans-serif, Pragmatica; font-size:11px;}
+.wmiddletext a {text-decoration:none; color:#ffffff;}
+.wmiddletext a:hover {text-decoration:none; color:#ffffff;}
+
+
+.menutext  {
+    text-decoration : none;
+    color : #000000;
+    font-family :  Helvetica, Sans-serif, Verdana, Tahoma,Pragmatica;
+    font-size : 12px;
+}
+
+
+.hand {cursor:hand;cursor:pointer;}
+.red {color:red;}
+.blue {color: #333366;}
+.bg {background-color: #9999FF;}
+.arr {position:relative;top:1px;}
+.space{margin-top:5px;}
