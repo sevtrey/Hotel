@@ -10,6 +10,7 @@
 <meta name="keywords" content="<?=GetStatic("1","st_seo_key")?>" />
 </head>
 <body>
-<div><? echo GetStatic("1","st_abstract") ?></div>
+<?=GetStatic("1","st_abstract")?>
+<?=GetStatic("1","st_text")?>
 </body>
 </html>
