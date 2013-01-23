@@ -179,7 +179,7 @@ if (!empty($oper))
 
 <table class=grayhead Border=0 CellSpacing=0 CellPadding=0 >
  <tr class=normaltext>
-  <td ><div ><h4><?=$part_name;?></h4></div></td>
+  <td><div><h4>Управление текстовыми страницами</h4></div></td>
   <td align=right class=wmiddletext><a class=submenu onclick="displayform(this,'добавить страницу')">добавить страницу</a></td>  
  </tr>
 </table>
@@ -225,7 +225,7 @@ if (!empty($oper))
 
 
 <table Border=0 CellSpacing=0 class=pagebluetable CellPadding=0 >
- <tr><td class=lmenutext height=30 bgcolor=#ffffff align="center">ТЕКСТОВЫЕ СТРАНИЦЫ</td></tr>
+ <tr><td class=lmenutext height=30 bgcolor=#ffffff align="center">СПИСОК ТЕКСТОВЫХ СТРАНИЦ</td></tr>
 </table>
 
 <?php
@@ -302,7 +302,7 @@ if (!empty($oper))
 			echo"<TD align=left class=smalltext ondblclick='change_line(\"$checkname\",\"F#$checkname#static_title#string\");' id=\"F#$checkname#static_title#string\">".Show($static_title)."</TD>\n";
 			echo"<td align=center ><a href='editstatic.php?static_code=$static_code&static_title=$static_title'><img height='20' width='20' src='graph/edit.gif' border=0 title='Редактировать содержимое страницы'></a></td>";
 			//echo"<td align=center ><a href='editstatic.php?static_code=$static_code&static_title=$static_title'><img height='20' width='20' src='graph/edit.gif' border=0 title='Редактировать содержимое страницы'></a></td>";
-			echo"<td align=center ><a href='editseo.php?static_code=$static_code&page_name=$page_name&pagetype=$pagetype'><img height='20' width='20' src='graph/edit.gif' border=0 title='Редактировать SEO информацию'></a></td>";
+			echo"<td align=center ><a href='editseo.php?static_code=$static_code&static_title=$static_title&pagetype=$pagetype'><img height='20' width='20' src='graph/edit.gif' border=0 title='Редактировать SEO информацию'></a></td>";
 			echo"<td><center><a href=\"picture.php?back=statlist&icon=250&static_code=$static_code\"><img height='24' width='24' src='graph/photo.gif' border=0 alt='Фотогалерея ' title='Редактировать фотогалерею'></a></td>";
 			echo"</TR>\n";
 		} 

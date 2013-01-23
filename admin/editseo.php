@@ -1,9 +1,6 @@
 <?php
     include("inc/settings.php");
-//    $static_code=$_GET["static_code"];
-//    $page_name=$_GET["page_name"];
-
-//    if (!intval($static_code)) {header("Location: index.php");die();}
+	
     if(!isAllowed("rstatic")) {die("У Вас недостаточно прав для просмотра этой страницы");}    
     if (!empty($oper))
     {
@@ -115,15 +112,15 @@ function reloadPage (selector) {
   
 <table class=grayhead Border=0 CellSpacing=0 CellPadding=0>
  <tr class=normaltext>
- <!--  <td ><div ><h4><?=$page_name;?></h4></div></td>  -->
   <td ><div ><h4> Содержание SEO </h4></div></td>
   <td align=right>  </td>
  </tr>
 </table>
 <br>
 <table Border=0 CellSpacing=0 CellPadding=0 width=650>
-     <tr><!--<td class=lmenutext align=center><a href="statlist.php">[ назад ]</a> <br> -->
-	 <td class=lmenutext align=center><a href="javascript:history.back();">[ назад ]</a><br>
+     <tr><td class=lmenutext align=center><a href="statlist.php">[ назад к текстовым страницам ]</a> <br>
+	 <td class=lmenutext align=center><a href="albumlist.php">[ назад к галереям ]</a>
+	 <!--<td class=lmenutext align=center><a href="javascript:history.back();">[ назад ]</a><br>-->
 </table>
 
 <center>
@@ -171,7 +168,9 @@ function reloadPage (selector) {
 <table Border=0 CellSpacing=0 CellPadding=0 width=650>
  <!--<tr><td height=10></td></tr>-->
    <!-- <tr><td class=lmenutext align=center><a href="statlist.php">[ назад ]</a> <br>-->
-   <td class=lmenutext align=center><a href="javascript:history.back();">[ назад ]</a><br>
+    <td class=lmenutext align=center><a href="statlist.php">[ назад к текстовым страницам ]</a> <br>
+	<td class=lmenutext align=center><a href="albumlist.php">[ назад к галереям ]</a>
+   <!--<td class=lmenutext align=center><a href="javascript:history.back();">[ назад ]</a><br>-->
 </table>
 
 </center>
