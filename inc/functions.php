@@ -64,7 +64,8 @@ function GetImages($static_code)
 		echo "<td width = 150 align='center'>";
 		//<a href=<?echo "images.php?static_code=$static_code&type=$static_type";><img height=100 src=echo "images/$picsmall"  alt= <?$piccomment ></a>
 		?>
-		<img height=100 src=<? echo "images/$picsmall" ?> alt = <?$piccomment?> title = <?$piccomment?>>
+		<!--<img height=100 src=<? //echo "images/$picsmall" ?> alt = <?//$piccomment?> title = <?//$piccomment?>>-->
+		<p><img src=<? echo "images/$picsmall" ?> class="group1" href=<? echo "images/$picbig" ?> title=<? echo "$piccomment" ?>></p>
 		<?
 		echo "</td>";
 		$i++;

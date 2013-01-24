@@ -9,7 +9,33 @@
 	<meta name="description" content="<?=GetStatic($static_code,"st_seo_desc")?>" />
 	<meta name="keywords" content="<?=GetStatic($static_code,"st_seo_key")?>" />
 	<link href="css/style.css" TYPE="text/css" rel="stylesheet">
-
+	<style>
+			/*body{font:12px/1.2 Trebuchet MS, sans-serif; padding:0 10px;}
+			a:link, a:visited{text-decoration:none; color:#416CE5; border-bottom:1px solid #416CE5;}
+			h2{font-size:13px; margin:15px 0 0 0;}*/
+		</style>
+		<link rel="stylesheet" href="style/colorbox.css" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.colorbox.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".group1").colorbox({rel:'group1'});
+				//$(".ajax").colorbox();
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+		</script>
 </head>
 <body>
 
