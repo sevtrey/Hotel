@@ -12,5 +12,7 @@
 <body>
 <?=GetStatic("1","st_abstract")?>
 <?=GetStatic("1","st_text")?>
+<?=GetStatic("3","st_text")?>
+<?=GetStatic("4","st_text")?>
 </body>
 </html>
