@@ -1,0 +1,221 @@
+body {
+color: Black;
+}
+
+.site{
+background: gray;
+margin: 0 auto;
+width: 1260px;
+}
+.sitetop2text{
+float:left;
+background: green;
+width: 647px;
+}
+.topmenu{
+background: url('images/topmenu.png');
+width: 647px;
+height: 169px;
+overflow:hidden;
+}
+
+.navigat{ 
+width: 622px;
+height: 45px;
+margin-top:126px;
+margin-left:26px;
+overflow:hidden;
+}
+
+.navigat .mitem{
+float:left;
+}
+
+.navigat .mitem li{
+list-style: none;
+line-height: 1;
+text-align: center;
+padding-top: 12px;
+width: 120px;
+height: 30px;
+text-transform: uppercase;
+}
+
+.navigat .mitem li a {
+text-decoration: none;
+font-family: Trebuchet MS;
+font-size: 16px;
+text-transform: uppercase;
+color: white;
+}
+
+.navigat .mitem li:hover {
+background-color:rgb(26,153,172); 
+}
+
+.navigat .mitem li:hover a {
+color:white;
+}
+
+.toptext{
+background:url('images/toptext.png') repeat-y;
+width: 557px;
+padding-right:60px;  
+padding-left:30px; 
+padding-bottom:5px;  
+padding-top:5px; 
+}
+.socbook{
+float:left;
+background: green;
+width: 613px;
+}
+.social{
+background: url('images/social.png');
+width: 613px;
+height: 74px;
+}
+.socialicon{
+margin-left:203px;  
+width:200px; 
+color:#82a0b8; 
+text-align:center;
+}
+
+.sb{
+width: 202px;
+height: 54px;
+}
+
+.sb img {
+float:left; 
+margin:0px; 
+margin-top:25px;
+}
+
+
+.booking{
+float: left;
+background: url('images/booking.png');
+width: 613px;
+height: 431px;
+}
+
+.textform{
+width: 593px;
+margin-top:55px;
+margin-left:10px;
+padding: 10px;
+}
+
+.textformrad{
+width: 250px;
+height: 40px;
+margin-top:165px;
+margin-left:250px;
+padding: 10px;
+}
+
+.textform .login{
+float: left;
+padding-bottom: 5px;
+padding-top: 5px;
+padding-right:20px;
+padding-left:20px;
+}
+
+.textform input {
+width: 216px;
+font-family: Tahoma;
+font-size: 16px;
+margin-right: 5px;
+}
+
+.batton {float:left;
+margin-top:12px;  
+margin-left:0px;  
+width:100%; 
+color:#82a0b8; 
+text-align:center;}
+
+.batton .bat{
+padding-left:10px;
+padding-right:400px;
+}
+
+.middlephoto{
+float:left;
+background: green;
+width: 647px;
+}
+.photogallery{
+background: url('images/Photogallery.png') repeat-y;
+width: 577px;
+padding-right:40px;  
+padding-left:30px; 
+padding-bottom:5px;  
+padding-top:5px; 
+}
+
+.pageinfo{
+clear: both;
+display: block;
+padding-left: 20px;
+background: url(../graph/greeting.png) bottom repeat-x;
+margin-bottom: 0px;
+}
+
+.prewgallery{
+margin-top: 10px;
+padding-top: 15px;
+overflow: hidden;
+width: 647px;
+clear: both;
+border-top: solid 1px #dddddd;
+font-size: 11px;
+}
+
+
+.prewgalleryarea{
+width:647px; 
+}
+.prewgalleryareaitem{
+width: 175px;
+overflow: hidden;
+margin-right: 20px;
+margin-bottom: 15px;
+display: -moz-inline-stack;
+display: inline-block;
+vertical-align: text-top; 
+zoom: 1;
+}
+
+h1 {
+margin: 0px;
+padding: 0px;
+padding-bottom: 19px;
+margin-bottom: 10px;
+font-weight: normal;
+font-size: 21px;
+font-family: Trebuchet MS, Arial, Tahoma;
+}
+
+.middletextpage{
+float:left;
+background: green;
+width: 613px;
+}
+.textpage{
+background: url('images/textpage.png') repeat-y;
+width: 553px;
+padding-right:60px;  
+padding-left:0px; 
+padding-bottom:5px;  
+padding-top:5px; 
+}
+.bottom{
+float:left;
+background: url('images/bottom.png') bottom no-repeat;
+width: 1260px;
+height: 84px;
+
