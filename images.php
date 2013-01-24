@@ -4,15 +4,14 @@
 	include("inc/connect.php");
 	$static_code = $_GET['static_code'];
 	?>
+	<meta http-EQUIV="Content-Type" Content="text/html"; charset='utf-8'>
 	<title><?=GetStatic($static_code,"st_seo_title")?></title>
-	<meta http-EQUIV="Content-Type" Content="text/html; charset=utf-8">
 	<meta name="description" content="<?=GetStatic($static_code,"st_seo_desc")?>" />
 	<meta name="keywords" content="<?=GetStatic($static_code,"st_seo_key")?>" />
-	<link href="css/style.css" TYPE="text/css" rel="stylesheet">
-	<style>
-			/*body{font:12px/1.2 Trebuchet MS, sans-serif; padding:0 10px;}
+		<style>
+			body{font:12px/1.2 Verdana, sans-serif; padding:0 10px;}
 			a:link, a:visited{text-decoration:none; color:#416CE5; border-bottom:1px solid #416CE5;}
-			h2{font-size:13px; margin:15px 0 0 0;}*/
+			h2{font-size:13px; margin:15px 0 0 0;}
 		</style>
 		<link rel="stylesheet" href="style/colorbox.css" />
 		<script src="js/jquery.min.js"></script>

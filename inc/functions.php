@@ -71,7 +71,7 @@ function GetImages($static_code)
 		$i++;
 		$query = "SELECT * FROM hotel_picture WHERE (static_code='$static_code') AND (picpos='$i');";//находим строку
 		$res = mysql_query($query);//выполняем запрос
-		if($i % 3 == 0) 
+		if($i % 4 == 0) 
 			echo "</tr>";
 	}
 	?>
