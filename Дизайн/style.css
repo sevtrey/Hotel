@@ -1,5 +1,6 @@
 body {
 color: Black;
+margin-top: 0px;
 }
 
 .site{
@@ -12,32 +13,45 @@ float:left;
 background: green;
 width: 647px;
 }
+
+.logotype{
+background: url('images/logotype.png');
+width: 647px;
+height: 121px;
+}
+
 .topmenu{
 background: url('images/topmenu.png');
 width: 647px;
-height: 169px;
+height: 48px;
 overflow:hidden;
 }
 
 .navigat{ 
 width: 622px;
 height: 45px;
-margin-top:126px;
-margin-left:26px;
+margin-top:0px;
+margin-left:50px;
 overflow:hidden;
 }
 
 .navigat .mitem{
 float:left;
+margin-left:10px;
+margin-right:10px;
+}
+.navigat .mitem img{
+margin-top:5px;
+margin-left:0px;
+margin-right:0px;
 }
 
 .navigat .mitem li{
 list-style: none;
 line-height: 1;
 text-align: center;
-padding-top: 12px;
-width: 120px;
-height: 30px;
+padding-top: 13px;
+height: 40px;
 text-transform: uppercase;
 }
 
@@ -57,14 +71,23 @@ background-color:rgb(26,153,172);
 color:white;
 }
 
+.toptextblock{
+background:url('images/toptext.png') repeat-y;
+width: 647px;
+height: 362px; 
+}
+
 .toptext{
 background:url('images/toptext.png') repeat-y;
-width: 557px;
-padding-right:60px;  
-padding-left:30px; 
-padding-bottom:5px;  
-padding-top:5px; 
+width: 447px;
+height: 362px;
+font-family: Trebuchet MS;
+font-size:14px;
+padding-right:170px;  
+padding-left:30px;  
+padding-top:30px;
 }
+
 .socbook{
 float:left;
 background: green;
@@ -98,7 +121,7 @@ margin-top:25px;
 float: left;
 background: url('images/booking.png');
 width: 613px;
-height: 431px;
+height: 457px;
 }
 
 .textform{
@@ -111,6 +134,8 @@ padding: 10px;
 .textformrad{
 width: 250px;
 height: 40px;
+font-family: Tahoma;
+font-size: 13px;
 margin-top:165px;
 margin-left:250px;
 padding: 10px;
@@ -118,6 +143,8 @@ padding: 10px;
 
 .textform .login{
 float: left;
+font-family: Trebuchet MS;
+font-size: 14px;
 padding-bottom: 5px;
 padding-top: 5px;
 padding-right:20px;
@@ -126,7 +153,6 @@ padding-left:20px;
 
 .textform input {
 width: 216px;
-font-family: Tahoma;
 font-size: 16px;
 margin-right: 5px;
 }
@@ -165,13 +191,20 @@ background: url(../graph/greeting.png) bottom repeat-x;
 margin-bottom: 0px;
 }
 
+.pageinfo h1{
+font-family: Tahoma;
+font-size: 22px;
+color:rgb(7,68,106);
+padding-bottom: 19px;
+}
+
 .prewgallery{
 margin-top: 10px;
 padding-top: 15px;
 overflow: hidden;
 width: 647px;
 clear: both;
-border-top: solid 1px #dddddd;
+border-top: solid 0px #dddddd;
 font-size: 11px;
 }
 
@@ -179,7 +212,10 @@ font-size: 11px;
 .prewgalleryarea{
 width:647px; 
 }
+
+
 .prewgalleryareaitem{
+font-family: Aria;
 width: 175px;
 overflow: hidden;
 margin-right: 20px;
@@ -188,6 +224,21 @@ display: -moz-inline-stack;
 display: inline-block;
 vertical-align: text-top; 
 zoom: 1;
+}
+
+.prewgalleryareaitem   a {
+text-decoration: none;
+font-family: Aria;
+font-size: 10px;
+text-transform: none;
+color: rgb(255,102,0);
+}
+
+.prewgalleryareaitem  p {
+margin-top:3px;
+margin-bottom:3px;
+padding-top:0px; 
+padding-bottom:0px;
 }
 
 h1 {
@@ -205,17 +256,66 @@ float:left;
 background: green;
 width: 613px;
 }
+.textpageblock{
+background: url('images/textpage.png') repeat-y;
+width: 613px;
+height:392px;
+}
+
 .textpage{
 background: url('images/textpage.png') repeat-y;
-width: 553px;
+width: 603px;
+font-family: Trebuchet MS;
+font-size:14px;
 padding-right:60px;  
 padding-left:0px; 
-padding-bottom:5px;  
-padding-top:5px; 
+padding-top:40px; 
 }
+
 .bottom{
 float:left;
 background: url('images/bottom.png') bottom no-repeat;
 width: 1260px;
 height: 84px;
+}
+
+.topmenuniz {
+float:left; 
+height:23px; 
+width:100%; 
+margin-left:842px; 
+margin-top:25px; 
+overflow:hidden;
+}
+
+.topmenuniz .mitemniz {
+float: left;
+margin-left:3px;
+margin-right:3px;
+}
+.topmenuniz li{
+color:white;
+}
+.topmenuniz .mitemniz li{
+list-style: none;
+line-height: 1;
+text-align: center;
+text-transform:none;
+background-color:none;
+}
+.topmenuniz .mitemniz li a{
+text-decoration: none;
+padding:5px;
+font-family: Arial;
+font-size: 11px;
+text-transform: none;
+color: White;
+}
+
+.topmenuniz .mitemniz li:hover{
+color:White;
+}
+.topmenuniz .mitemniz li:hover a{
+ color:White;
+}
 
